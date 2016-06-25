@@ -20,7 +20,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".ImageViewActivity" />
         <activity android:name=".ImageViewConvertActivity" />
-        <activity android:name=".ImageListActivity"></activity>
+        <activity android:name=".ImageListActivity" />
+        <activity android:name=".ImageGridActivity"></activity>
     </application>
 
 </manifest>
