@@ -2,6 +2,7 @@ package com.hanbit.user.myappwebview;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,6 +16,7 @@ public class IntroActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_intro);
         ((Button) findViewById(R.id.btWebView)).setOnClickListener(this);
         ((Button) findViewById(R.id.btImageView)).setOnClickListener(this);
+        ((Button) findViewById(R.id.btImageViewConvert)).setOnClickListener(this);
 
     }
 
@@ -25,8 +27,12 @@ public class IntroActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(this, MainActivity.class));
                 break;
             case R.id.btImageView:
-                startActivity(new Intent(this, MainActivity.class));
+                startActivity(new Intent(this, ImageViewActivity.class));
                 break;
+            case R.id.btImageViewConvert:
+                startActivity(new Intent(this, ImageViewConvertActivity.class));
+                break;
+
         }
     }
 }

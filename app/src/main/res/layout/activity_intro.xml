@@ -14,4 +14,9 @@
         android:text="이미지뷰"
         android:id="@+id/btImageView"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전환이미지뷰"
+        android:id="@+id/btImageViewConvert"/>
 </LinearLayout>
