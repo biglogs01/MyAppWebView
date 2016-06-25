@@ -19,4 +19,10 @@
         android:layout_height="wrap_content"
         android:text="전환이미지뷰"
         android:id="@+id/btImageViewConvert"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리스트이미지뷰"
+        android:id="@+id/btListView"/>
 </LinearLayout>
